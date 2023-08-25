@@ -4,7 +4,7 @@ let vol;
 function volume_sphere() {
     //Write your code here
 	let r= radius.value;
-	vol=(4/3)*Math.pi*Math.pow(r,3);
+	vol=(4*Math.pi*Math.pow(r,3))/3;
 	volume.value=vol;
   
 } 
